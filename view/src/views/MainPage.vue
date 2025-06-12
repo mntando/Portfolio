@@ -1,4 +1,5 @@
 <template>
+  <NavBar class="z-20 fixed top-0 left-0 w-full text-gray-100" />
   <main class="relative bg-gray-100 min-h-screen w-full overflow-hidden">
     <div class="absolute inset-0 flex">
       <div class="flex flex-col w-1/2 space-y-4 p-18 text-left my-auto">
@@ -46,6 +47,16 @@
     </div>
   </main>
 </template>
+
+<script>
+import NavBar from '../components/NavBar.vue';
+
+export default {
+  components: {
+    NavBar
+  }
+}
+</script>
 
 <style scoped>
 body, html {
