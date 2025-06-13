@@ -3,7 +3,7 @@
   <div class="p-6 max-w-7xl mx-auto">
     <h1 class="text-2xl font-bold mb-4">Projects</h1>
     <p class="text-lg leading-relaxed text-gray-700 mb-10">
-      Here are some of the projects I've built across embedded systems, mobile, and web development. More to come.
+      Here are some of the projects I've built across embedded systems, mobile, and web development. More are to come.
     </p>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
@@ -24,7 +24,7 @@
             Monitors tank levels using ultrasonic sensors and ESP32. Sends real-time data to a mobile app via Wi-Fi.
           </p>
 
-          <a href="https://github.com/yourusername/smart-water-monitor" target="_blank"
+          <a href="https://github.com/mntando/smart-water-monitor" target="_blank"
             class="inline-block text-sm text-blue-600 hover:underline font-medium">
             View on GitHub →
           </a>
