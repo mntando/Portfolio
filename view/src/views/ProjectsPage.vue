@@ -102,7 +102,6 @@
           </div>
           <p class="text-gray-700 mb-4">
             Responsive personal site built with Vue.js and Tailwind CSS. Fully deployed and live on render.
-            <a href="https://mvportfolio.onrender.com" target="_blank" class="inline-block text-sm text-blue-600 hover:underline font-medium">View</a>
           </p>
           <a href="https://github.com/mntando/Portfolio" target="_blank"
             class="inline-block text-sm text-blue-600 hover:underline font-medium">
