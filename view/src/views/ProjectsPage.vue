@@ -102,7 +102,7 @@
           </div>
           <p class="text-gray-700 mb-4">
             Responsive personal site built with Vue.js and Tailwind CSS. Fully deployed and live on render.
-            <a href="https://render.com./mvportfolio" target="_blank" class="inline-block text-sm text-blue-600 hover:underline font-medium">View</a>
+            <a href="https://mvportfolio.onrender.com" target="_blank" class="inline-block text-sm text-blue-600 hover:underline font-medium">View</a>
           </p>
           <a href="https://github.com/mntando/Portfolio" target="_blank"
             class="inline-block text-sm text-blue-600 hover:underline font-medium">
@@ -125,7 +125,7 @@
             <h3 class="font-semibold text-lg">Responsive Webpage</h3>
           </div>
           <p class="text-gray-700 mb-4">
-            Fully responsive webpage for monitoring and managing battery systems, featuring real-time data visualization and user-friendly controls.
+            A simple project focused on practicing responsive web design techniques using HTML and CSS.
           </p>
           <a href="https://github.com/mntando/Responsive-webpage" target="_blank"
             class="inline-block text-sm text-blue-600 hover:underline font-medium">
