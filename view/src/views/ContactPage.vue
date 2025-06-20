@@ -21,8 +21,11 @@
         <label class="block text-sm text-left font-medium text-gray-700">Message:</label>
         <textarea v-model="message" rows="4" required class="w-full mt-1 p-2 border rounded-md"></textarea>
       </div>
-      <button type="submit" class="bg-gray-700 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
+      <!-- <button type="submit" class="bg-gray-700 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
         Send Message
+      </button> -->
+      <button type="submit" :disabled="submitting" class="bg-gray-700 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition disabled:opacity-50 disabled:cursor-not-allowed">
+        {{ submitting ? 'Sending...' : 'Send Message' }}
       </button>
     </form>
 
@@ -57,11 +60,37 @@ const name = ref('');
 const email = ref('');
 const message = ref('');
 
-function handleSubmit() {
-  // Placeholder: You can integrate with a service like EmailJS or Formspree
-  alert(`Thanks, ${name.value}! Your message has been sent.`);
-  name.value = '';
-  email.value = '';
-  message.value = '';
-}
+const submitting = ref(false);
+
+const handleSubmit = async () => {
+  submitting.value = true;
+
+  try {
+    const response = await fetch('https://formspree.io/f/manjbdka', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name: name.value,
+        email: email.value,
+        message: message.value
+      })
+    });
+
+    if (response.ok) {
+      alert(`Thanks, ${name.value}! Your message has been sent.`);
+      name.value = '';
+      email.value = '';
+      message.value = '';
+    } else {
+      alert('Something went wrong. Please try again.');
+    }
+  } catch (err) {
+    console.error(err);
+    alert('There was an error sending your message.');
+  }
+
+  submitting.value = false;
+};
 </script>

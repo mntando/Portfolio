@@ -20,7 +20,7 @@
           <p class="text-gray-700 mb-4">
             Electron-Vue app showing real-time traffic light states on a Leaflet map, enables remote control of traffic lights. Data pulled from a local Sqlite3 DB.
           </p>
-          <a href="https://github.com/yourusername/traffic-light-dashboard" target="_blank"
+          <a href="https://github.com/mntando/Traffic-lights-management-system" target="_blank"
             class="inline-block text-sm text-blue-600 hover:underline font-medium">
             View on GitHub →
           </a>
@@ -42,7 +42,7 @@
           <p class="text-gray-700 mb-4">
             Arduino sketch for generating PWM signals. Features adjustable frequency and duty cycle, with code optimized for low power consumption and precise timing.
           </p>
-          <a href="https://github.com/mntando/smart-water-monitor" target="_blank"
+          <a href="https://github.com/mntando/Pwm" target="_blank"
             class="inline-block text-sm text-blue-600 hover:underline font-medium">
             View on GitHub →
           </a>
@@ -63,9 +63,9 @@
           <p class="text-gray-700 mb-4">
             Flask web app that displays real-time weather data from OpenWeatherMap. Features city search, responsive UI, and simple REST API integration.
           </p>
-          <a href="https://github.com/yourusername/smart-home-app" target="_blank"
+          <a href="https://weather50.onrender.com" target="_blank"
             class="inline-block text-sm text-blue-600 hover:underline font-medium">
-            View on GitHub →
+            Visit site here →
           </a>
         </div>
       </div>
@@ -83,7 +83,7 @@
           <p class="text-gray-700 mb-4">
             Node.js app that scrapes multiplier values from Aviator game on spincity.co.zw and logs them locally.
           </p>
-          <a href="https://github.com/yourusername/aviator-multiplier-scraper" target="_blank"
+          <a href="https://github.com/mntando/Aviator-Multiplier-Scraper" target="_blank"
             class="inline-block text-sm text-blue-600 hover:underline font-medium">
             View on GitHub →
           </a>
@@ -104,7 +104,7 @@
             Responsive personal site built with Vue.js and Tailwind CSS. Fully deployed and live on render.
             <a href="https://render.com./mvportfolio" target="_blank" class="inline-block text-sm text-blue-600 hover:underline font-medium">View</a>
           </p>
-          <a href="https://github.com/yourusername/portfolio-website" target="_blank"
+          <a href="https://github.com/mntando/Portfolio" target="_blank"
             class="inline-block text-sm text-blue-600 hover:underline font-medium">
             View on GitHub →
           </a>
@@ -127,7 +127,7 @@
           <p class="text-gray-700 mb-4">
             Fully responsive webpage for monitoring and managing battery systems, featuring real-time data visualization and user-friendly controls.
           </p>
-          <a href="https://github.com/yourusername/battery-management-tool" target="_blank"
+          <a href="https://github.com/mntando/Responsive-webpage" target="_blank"
             class="inline-block text-sm text-blue-600 hover:underline font-medium">
             View on GitHub →
           </a>
