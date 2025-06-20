@@ -381,9 +381,9 @@
   .overflow-hidden {
     overflow: hidden;
   }
-  .rounded-full {
+  /* .rounded-full {
     border-radius: calc(infinity * 1px);
-  }
+  } */
   .rounded-lg {
     border-radius: var(--radius-lg);
   }

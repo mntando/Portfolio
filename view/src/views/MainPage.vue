@@ -25,7 +25,7 @@
         </div>
       </div>
 
-      <div class="w-full sm:w-1/2 flex items-center justify-center text-gray-100 bg-gray-900">
+      <div class="w-full sm:w-1/2 flex items-center justify-center text-gray-100 bg-gray-900 clip-right">
         <div class="text-center p-8 max-w-xl">
           <h1 class="text-2xl font-bold pt-8">Welcome to My Portfolio</h1>
           <p class="text-lg mt-18 px-4">
