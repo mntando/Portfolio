@@ -29,7 +29,7 @@
         <div class="text-center p-8 max-w-xl">
           <h1 class="text-2xl font-bold pt-8">Welcome to My Portfolio</h1>
           <p class="text-lg mt-18 px-4">
-            I'm an Electronics Engineering studen with a strong interest in building systems that integrate hardware and software.
+            I'm an Electronics Engineering studen with interest in building systems that integrate hardware and software.
             From circuit design to full-stack applications, I try to create solutions that are useful in real applications.
           </p>
           <p class="text-lg mt-18 px-4">
