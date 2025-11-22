@@ -3,7 +3,7 @@
   <div class="p-6 max-w-7xl mx-auto">
     <h1 class="text-2xl font-bold mb-4">Skills</h1>
     <p class="text-lg leading-relaxed text-gray-700 mb-10">
-      Here are some of the key technical and soft skills I've developed through hands-on projects, formal education, and self-driven learning.
+      Here are some of the key technical and soft skills I've developed:
     </p>
 
     <!-- Skills Grid -->
@@ -112,7 +112,7 @@
           </svg>
           <h3 class="font-semibold text-lg">Communication</h3>
         </div>
-        <p>Clear technical writing and team collaboration through documentation, reports, and knowledge sharing.</p>
+        <p>Technical writing and team collaboration through documentation, reports, and knowledge sharing.</p>
       </div>
     </div>
   </div>

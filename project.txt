@@ -1,3 +1,6 @@
-npx @tailwindcss/cli -i ./src/assets/main.css -o ./src/assets/tailwind.css --watch
-npx @tailwindcss/cli -i ./src/assets/main.css -o ./src/assets/tailwind.css --minify
+// Run server
 npm run serve
+
+// Tailwind
+npx @tailwindcss/cli -i ./src/assets/main.css -o ./src/assets/tailwind.css --watch      // development
+npx @tailwindcss/cli -i ./src/assets/main.css -o ./src/assets/tailwind.css --minify     // production

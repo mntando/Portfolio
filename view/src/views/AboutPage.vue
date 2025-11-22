@@ -3,8 +3,8 @@
   <div class="p-6 max-w-7xl mx-auto">
     <h1 class="text-2xl font-bold mb-4">About Me</h1>
     <p class="text-lg leading-relaxed text-gray-700">
-      I'm a final-year Electronics Engineering student with a deep interest in embedded systems, digital design, and programming. I love bridging the gap between physical hardware and software logic to build robust, scalable systems.
-      My journey has taken me through various projects, from designing microcontroller-based devices to developing full-stack applications. I thrive on challenges and enjoy learning new technologies to enhance my skill set.
+      I'm a final-year Electronics Engineering student with interest in embedded systems, digital design, and programming.
+      My journey has taken me through various projects, from designing microcontroller-based devices to developing full-stack applications.
     </p>
     
     <h2 class="text-2xl font-semibold mt-10">What I can do</h2>
