@@ -6,6 +6,7 @@ import About from '../views/AboutPage.vue'
 import Skills from '../views/SkillsPage.vue'
 import Projects from '../views/ProjectsPage.vue'
 import Contact from '../views/ContactPage.vue'
+import NotFound from '../views/NotFound.vue'
 
 const routes = [
 	{ path: '/', component: MainPage }, // default route
@@ -13,6 +14,7 @@ const routes = [
 	{ path: '/skills', component: Skills },
 	{ path: '/projects', component: Projects },
 	{ path: '/contact', component: Contact },
+	{ path: '/:pathMatch(.*)*', component: NotFound } // catch-all route for 404 Not Found
 ]
 
 const router = createRouter({
