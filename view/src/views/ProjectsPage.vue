@@ -41,7 +41,7 @@
           <p class="text-gray-700 mb-4">
             Flask web app that displays real-time weather data from OpenWeatherMap. Features city search, responsive UI, and simple REST API integration.
           </p>
-          <a href="https://weather50.onrender.com" target="_blank"
+          <a href="https://weather50.vercel.app" target="_blank"
             class="inline-block text-sm text-blue-600 hover:underline font-medium">
             Visit site here →
           </a>
