@@ -8,7 +8,7 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
       <!-- Project 1 -->
-      <div class="bg-gray-100 rounded-xl overflow-hidden hover:shadow-sm transition border border-gray-200">
+      <div class="bg-gray-100 rounded-xl overflow-hidden border border-gray-300">
         <img src="../assets/imgs/mesh.jpg" alt="Traffic Light Dashboard" class="w-full h-40 object-cover">
         <div class="p-5">
           <div class="flex items-center gap-3 mb-2">
@@ -20,15 +20,29 @@
           <p class="text-gray-700 mb-4">
             A lightweight mesh network library using ESP-NOW protocol. Enables multi-hop communication for IoT and distributed systems without WiFi infrastructure.
           </p>
-          <a href="https://github.com/mntando/ENowMesh" target="_blank"
-            class="inline-block text-sm text-blue-600 hover:underline font-medium">
-            View on GitHub →
+          <div class="flex flex-wrap gap-2 mb-4 justify-center">
+            <span class="px-3 py-1 text-xs font-medium rounded-full text-gray-900 border border-gray-500">
+              C++
+            </span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full text-green-800 border border-green-400">
+              ESP32
+            </span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full text-blue-800 border border-blue-400">
+              ESP-NOW
+            </span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full text-orange-800 border border-orange-400">
+              IoT
+            </span>
+          </div>
+          <a href="https://github.com/mntando/ENowMesh" target="_blank" class="inline-flex items-center gap-1 text-sm font-medium text-gray-700 hover:text-black decoration-gray-600 hover:decoration-gray-700 underline underline-offset-4 transition">
+            View on GitHub
+            <span aria-hidden="true">↗</span>
           </a>
         </div>
       </div>  
       
       <!-- Project 2 -->
-      <div class="bg-gray-100 rounded-xl overflow-hidden hover:shadow-sm transition border border-gray-200">
+      <div class="bg-gray-100 rounded-xl overflow-hidden  border border-gray-300">
         <img src="../assets/imgs/weather.png" alt="Smart Home App" class="w-full h-40 object-cover">
         <div class="p-5">
           <div class="flex items-center gap-3 mb-2">
@@ -41,15 +55,29 @@
           <p class="text-gray-700 mb-4">
             Flask web app that displays real-time weather data from OpenWeatherMap. Features city search, responsive UI, and simple REST API integration.
           </p>
-          <a href="https://weather50.vercel.app" target="_blank"
-            class="inline-block text-sm text-blue-600 hover:underline font-medium">
-            Visit site here →
+          <div class="flex flex-wrap gap-2 mb-4 justify-center">
+            <span class="px-3 py-1 text-xs font-medium rounded-full  text-green-800 border border-green-400">
+              Flask
+            </span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full text-gray-900 border border-gray-500">
+              Python
+            </span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full  text-orange-800 border border-orange-400">
+              REST API
+            </span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full  text-blue-800 border border-blue-400">
+              SQLite3
+            </span>
+          </div>
+          <a href="https://weather50.vercel.app" target="_blank" class="inline-flex items-center gap-1 text-sm font-medium text-gray-700 hover:text-black decoration-gray-600 hover:decoration-gray-700 underline underline-offset-4 transition">
+            Live demo
+            <span aria-hidden="true">↗</span>
           </a>
         </div>
       </div>
 
       <!-- Project 3 -->
-      <div class="bg-gray-100 rounded-xl overflow-hidden hover:shadow-sm transition border border-gray-200">
+      <div class="bg-gray-100 rounded-xl overflow-hidden border border-gray-300">
         <img src="../assets/imgs/dashboard.png" alt="Traffic Light Dashboard" class="w-full h-40 object-cover">
         <div class="p-5">
           <div class="flex items-center gap-3 mb-2">
@@ -60,22 +88,36 @@
           </div>  
           <p class="text-gray-700 mb-4">
             Electron-Vue app showing real-time traffic light states on a Leaflet map, enables remote control of traffic lights. Data pulled from a local Sqlite3 DB.
-          </p>  
-          <a href="https://github.com/mntando/Traffic-lights-management-system" target="_blank"
-            class="inline-block text-sm text-blue-600 hover:underline font-medium">
-            View on GitHub →
-          </a>  
+          </p>
+          <div class="flex flex-wrap gap-2 mb-4 justify-center">
+            <span class="px-3 py-1 text-xs font-medium rounded-full text-gray-900 border border-gray-500">
+              Electron
+            </span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full text-green-800 border border-green-400">
+              Vue.js
+            </span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full text-blue-800 border border-blue-400">
+              Leaflet
+            </span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full text-orange-800 border border-orange-400">
+              SQLite3
+            </span>
+          </div>
+          <a href="https://github.com/mntando/Traffic-lights-management-system" target="_blank" class="inline-flex items-center gap-1 text-sm font-medium text-gray-700 hover:text-black decoration-gray-600 hover:decoration-gray-700 underline underline-offset-4 transition">
+            View on GitHub
+            <span aria-hidden="true">↗</span>
+          </a>
         </div>  
       </div>
     </div>
 
-    <!-- More Projects Button -->
-    <div class="bg-gray-100 mt-12 rounded-xl overflow-hidden hover:shadow-sm transition border border-gray-200">
-      <button @click="showMore = !showMore" class="w-full h-full p-5 flex items-center justify-between gap-3">
-        <div class="flex items-center gap-3">
-          <h3 class="font-semibold text-lg">Other Projects</h3>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" :class="showMore ? 'rotate-180' : ''" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 transition-transform">
+    <!-- More Projects Toggle -->
+    <div class="mt-12">
+      <button @click="showMore = !showMore" class="w-full p-4 flex items-center justify-between gap-3 rounded-xl border border-dashed border-gray-300 bg-gray-50 text-gray-700 hover:bg-gray-100 hover:border-gray-400 transition">
+        <span class="text-sm font-medium">
+          Other Projects
+        </span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 transition-transform" :class="showMore ? 'rotate-180' : ''" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
         </svg>
       </button>
@@ -84,7 +126,7 @@
     <transition enter-active-class="transition-all duration-300 ease-out" leave-active-class="transition-all duration-300 ease-in" enter-from-class="opacity-0 max-h-0" enter-to-class="opacity-100 max-h-[2000px]" leave-from-class="opacity-100 max-h-[2000px]" leave-to-class="opacity-0 max-h-0">
       <div v-if="showMore" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-12 gap-12">
         <!-- Project 4 -->
-        <div class="bg-gray-100 rounded-xl overflow-hidden hover:shadow-sm transition border border-gray-200">
+        <div class="bg-gray-100 rounded-xl overflow-hidden border border-gray-300">
           <img src="../assets/imgs/pwm.jpeg" alt="Smart Water Monitor" class="w-full h-40 object-cover">
           <div class="p-5">
             <div class="flex items-center gap-3 mb-2">
@@ -97,30 +139,54 @@
             </div>
             <p class="text-gray-700 mb-4">
               Arduino sketch for generating PWM signals. Features adjustable frequency and duty cycle, with code optimized for low power consumption and precise timing.
-            </p>  
-            <a href="https://github.com/mntando/Pwm" target="_blank"
-              class="inline-block text-sm text-blue-600 hover:underline font-medium">
-              View on GitHub →
-            </a>  
+            </p> 
+            <div class="flex flex-wrap gap-2 mb-4 justify-center">
+              <span class="px-3 py-1 text-xs font-medium rounded-full text-orange-800 border border-orange-400">
+                Arduino
+              </span>
+              <span class="px-3 py-1 text-xs font-medium rounded-full text-gray-900 border border-gray-500">
+                C++
+              </span>
+              <span class="px-3 py-1 text-xs font-medium rounded-full text-green-800 border border-green-400">
+                PWM
+              </span>
+            </div>
+            <a href="https://github.com/mntando/Pwm" target="_blank" class="inline-flex items-center gap-1 text-sm font-medium text-gray-700 hover:text-black decoration-gray-600 hover:decoration-gray-700 underline underline-offset-4 transition">
+              View on GitHub
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>  
         </div>  
 
         <!-- Project 5 -->
-        <div class="bg-gray-100 rounded-xl overflow-hidden hover:shadow-sm transition border border-gray-200">
+        <div class="bg-gray-100 rounded-xl overflow-hidden border border-gray-300">
           <img src="../assets/imgs/portfolio.png" alt="Portfolio Website" class="w-full h-40 object-cover">
           <div class="p-5">
             <div class="flex items-center gap-3 mb-2">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+              <svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
               </svg>
               <h3 class="font-semibold text-lg">Portfolio Website</h3>
             </div>
             <p class="text-gray-700 mb-4">
-              A fully responsive site built with Vue.js and Tailwind CSS, live on Render, presenting my projects, personal work, and ongoing development experiments.
+              A fully responsive site built with Vue.js and Tailwind CSS, live on Vercel, presenting my projects, personal work, and ongoing development experiments.
             </p>
-            <a href="https://github.com/mntando/Portfolio" target="_blank"
-              class="inline-block text-sm text-blue-600 hover:underline font-medium">
-              View on GitHub →
+            <div class="flex flex-wrap gap-2 mb-4 justify-center">
+              <span class="px-3 py-1 text-xs font-medium rounded-full text-green-800 border border-green-400">
+                Vue.js
+              </span>
+              <span class="px-3 py-1 text-xs font-medium rounded-full text-blue-800 border border-blue-400">
+                Tailwind CSS
+              </span>
+              <span class="px-3 py-1 text-xs font-medium rounded-full text-orange-800 border border-orange-400">
+                Portfolio
+              </span>
+            </div>
+            <a href="https://github.com/mntando/Portfolio" target="_blank" class="inline-flex items-center gap-1 text-sm font-medium text-gray-700 hover:text-black decoration-gray-600 hover:decoration-gray-700 underline underline-offset-4 transition">
+              View on GitHub
+              <span aria-hidden="true">↗</span>
             </a>
           </div>
         </div>
