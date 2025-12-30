@@ -18,24 +18,29 @@
         </div>
         <p class="text-left">Designing and programming microcontroller-based hardware projects using C, Arduino, and embedded Linux tools.</p>
       </li>
+
       <li class="bg-gray-100 rounded-lg p-6 hover:shadow-sm transition">
         <div class="flex items-center gap-3 mb-2">
-          <svg class="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+          <svg class="size-6 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
             <path d="M9 2v6h6V2h5a2 2 0 012 2v5h-6v6h6v5a2 2 0 01-2 2h-5v-6H9v6H4a2 2 0 01-2-2v-5h6V9H2V4a2 2 0 012-2h5z"/>
           </svg>
           <h3 class="font-semibold text-lg">Mobile App Development</h3>
         </div>
         <p class="text-left">Building Android apps in Kotlin with clean UI and efficient architecture, often integrating hardware features.</p>
       </li>
+
       <li class="bg-gray-100 rounded-lg p-6 hover:shadow-sm transition">
         <div class="flex items-center gap-3 mb-2">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+          <svg class="size-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
           </svg>
           <h3 class="font-semibold text-lg">Web Development</h3>
         </div>
         <p class="text-left">Creating interactive web apps with Vue, Node.js, and Flask, including full-stack RESTful services.</p>
       </li>
+
       <li class="bg-gray-100 rounded-lg p-6 hover:shadow-sm transition">
         <div class="flex items-center gap-3 mb-2">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
