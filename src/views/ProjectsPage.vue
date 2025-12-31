@@ -87,7 +87,7 @@
             <h3 class="font-semibold text-lg">Traffic Light Dashboard</h3>
           </div>  
           <p class="text-gray-700 mb-4">
-            Electron-Vue app showing real-time traffic light states on a Leaflet map, enables remote control of traffic lights. Data pulled from a local Sqlite3 DB.
+            Electron-Vue desktop app showing real-time traffic light states on a Leaflet map, enables remote control of traffic lights. Data pulled from a local Sqlite3 DB.
           </p>
           <div class="flex flex-wrap gap-2 mb-4 justify-center">
             <span class="px-3 py-1 text-xs font-medium rounded-full text-gray-900 border border-gray-500">
