@@ -2,6 +2,6 @@ services:
   - type: web
     name: portfolio-site
     env: static
-    buildCommand: cd view && npm install && npm run build
-    staticPublishPath: view/dist
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
     branch: main

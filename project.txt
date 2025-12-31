@@ -1,8 +1,6 @@
-// Run server
-cd view, npm run serve
-
-// Build project
-cd view, npm run build
+// run server, build project
+npm run serve
+npm run build
 
 // Tailwind
 npx @tailwindcss/cli -i ./src/assets/main.css -o ./src/assets/tailwind.css --watch      // development
