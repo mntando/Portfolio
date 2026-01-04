@@ -34,7 +34,7 @@
               IoT
             </span>
           </div>
-          <a href="https://github.com/mntando/ENowMesh" target="_blank" class="inline-flex items-center gap-1 text-sm text-gray-700 hover:text-black decoration-gray-600 hover:decoration-gray-700 underline underline-offset-4 transition">
+          <a href="https://github.com/mntando/ENowMesh" target="_blank" class="inline-flex items-center gap-1 text-sm font-medium text-gray-700 hover:text-black decoration-gray-600 hover:decoration-gray-700 underline underline-offset-4 transition">
             View on GitHub
             <span aria-hidden="true">↗</span>
           </a>
@@ -55,17 +55,17 @@
           <p class="text-gray-700 mb-4">
             Flask web app that displays real-time weather data from OpenWeatherMap. Features city search, responsive UI, and simple REST API integration.
           </p>
-          <div class="flex flex-wrap gap-2 mb-4 justify-center">
-            <span class="px-3 py-1 text-xs font-medium rounded-full  text-green-800 border border-green-400">
+          <div class="flex flex-wrap gap-2 mb-4 justify-center text-xs font-medium">
+            <span class="px-3 py-1 rounded-full  text-green-800 border border-green-400">
               Flask
             </span>
-            <span class="px-3 py-1 text-xs font-medium rounded-full text-gray-900 border border-gray-500">
+            <span class="px-3 py-1 rounded-full text-gray-900 border border-gray-500">
               Python
             </span>
-            <span class="px-3 py-1 text-xs font-medium rounded-full  text-orange-800 border border-orange-400">
+            <span class="px-3 py-1 rounded-full  text-orange-800 border border-orange-400">
               REST API
             </span>
-            <span class="px-3 py-1 text-xs font-medium rounded-full  text-blue-800 border border-blue-400">
+            <span class="px-3 py-1 rounded-full  text-blue-800 border border-blue-400">
               SQLite3
             </span>
           </div>
@@ -89,17 +89,17 @@
           <p class="text-gray-700 mb-4">
             Electron-Vue desktop app showing real-time traffic light states on a Leaflet map, enables remote control of traffic lights. Data pulled from a local Sqlite3 DB.
           </p>
-          <div class="flex flex-wrap gap-2 mb-4 justify-center">
-            <span class="px-3 py-1 text-xs font-medium rounded-full text-gray-900 border border-gray-500">
+          <div class="flex flex-wrap gap-2 mb-4 justify-center text-xs font-medium">
+            <span class="px-3 py-1 rounded-full text-gray-900 border border-gray-500">
               Electron
             </span>
-            <span class="px-3 py-1 text-xs font-medium rounded-full text-green-800 border border-green-400">
+            <span class="px-3 py-1 rounded-full text-green-800 border border-green-400">
               Vue.js
             </span>
-            <span class="px-3 py-1 text-xs font-medium rounded-full text-blue-800 border border-blue-400">
+            <span class="px-3 py-1 rounded-full text-blue-800 border border-blue-400">
               Leaflet
             </span>
-            <span class="px-3 py-1 text-xs font-medium rounded-full text-orange-800 border border-orange-400">
+            <span class="px-3 py-1 rounded-full text-orange-800 border border-orange-400">
               SQLite3
             </span>
           </div>
@@ -140,14 +140,14 @@
             <p class="text-gray-700 mb-4">
               Arduino sketch for generating PWM signals. Features adjustable frequency and duty cycle, with code optimized for low power consumption and precise timing.
             </p> 
-            <div class="flex flex-wrap gap-2 mb-4 justify-center">
-              <span class="px-3 py-1 text-xs font-medium rounded-full text-orange-800 border border-orange-400">
+            <div class="flex flex-wrap gap-2 mb-4 justify-center text-xs font-medium">
+              <span class="px-3 py-1 font-medium rounded-full text-orange-800 border border-orange-400">
                 Arduino
               </span>
-              <span class="px-3 py-1 text-xs font-medium rounded-full text-gray-900 border border-gray-500">
+              <span class="px-3 py-1 font-medium rounded-full text-gray-900 border border-gray-500">
                 C++
               </span>
-              <span class="px-3 py-1 text-xs font-medium rounded-full text-green-800 border border-green-400">
+              <span class="px-3 py-1 font-medium rounded-full text-green-800 border border-green-400">
                 PWM
               </span>
             </div>
@@ -173,14 +173,14 @@
             <p class="text-gray-700 mb-4">
               A fully responsive site built with Vue.js and Tailwind CSS, live on Vercel, presenting my projects, personal work, and ongoing development experiments.
             </p>
-            <div class="flex flex-wrap gap-2 mb-4 justify-center">
-              <span class="px-3 py-1 text-xs font-medium rounded-full text-green-800 border border-green-400">
+            <div class="flex flex-wrap gap-2 mb-4 justify-center text-xs font-medium">
+              <span class="px-3 py-1 rounded-full text-green-800 border border-green-400">
                 Vue.js
               </span>
-              <span class="px-3 py-1 text-xs font-medium rounded-full text-blue-800 border border-blue-400">
+              <span class="px-3 py-1 rounded-full text-blue-800 border border-blue-400">
                 Tailwind CSS
               </span>
-              <span class="px-3 py-1 text-xs font-medium rounded-full text-orange-800 border border-orange-400">
+              <span class="px-3 py-1 rounded-full text-orange-800 border border-orange-400">
                 Portfolio
               </span>
             </div>
