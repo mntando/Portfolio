@@ -2,25 +2,25 @@
 
 A personal portfolio website built with Vue.js. Showcases my projects, skills, experience, and contact information.
 
-## 🖥️ Live Demo
+## Live Demo
 
-👉 [View Portfolio](https://mntando.github.io/portfolio)  
+[View Portfolio](https://mvfolio.vercel.app)  
 
-## 🚀 Features
+## Features
 
 - Responsive and mobile-friendly design
 - Project showcase with images and descriptions
 - About Me section
 - Skills and tech stack overview
-- Contact form (optional with email/third-party integration)
+- Contact form (with third-party integration)
 
-## 🛠️ Built With
+## Built With
 
 - [Vue.js](https://vuejs.org/)
-- HTML & CSS (with TailwindCSS or Bootstrap optional)
+- HTML & CSS (with TailwindCSS)
 - [Vue Router](https://router.vuejs.org/) for page navigation
 
-## 📦 Project Setup
+## Project Setup
 
 ```bash
 npm install
