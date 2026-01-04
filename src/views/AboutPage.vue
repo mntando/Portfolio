@@ -22,7 +22,7 @@
         <div class="mt-6 text-left pb-4">
           <p class="text-base font-medium text-gray-900">
             Regal Digital Solutions
-            <span class="font-normal text-gray-500">| Zimbabwe</span>
+            <span class="font-normal text-gray-500"></span>
           </p>
 
           <p class="mt-1 text-sm text-gray-700">
@@ -38,7 +38,7 @@
         <div class="text-left">
           <p class="text-base font-medium text-gray-900">
             Bulawayo City Council
-            <span class="font-normal text-gray-500">| Zimbabwe</span>
+            <span class="font-normal text-gray-500"></span>
           </p>
 
           <p class="mt-1 text-sm text-gray-700">
@@ -63,7 +63,7 @@
         <div class="text-left pb-4">
           <p class="text-base font-medium text-gray-900">
             National University of Science and Technology
-            <span class="font-normal text-gray-500">| Zimbabwe</span>
+            <span class="font-normal text-gray-500"></span>
           </p>
 
           <p class="mt-1 text-sm text-gray-700">
