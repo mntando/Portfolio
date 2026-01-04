@@ -1,63 +1,118 @@
 <template>
   <NavBar class="bg-gray-900 text-gray-200"/>
   <div class="p-6 max-w-7xl mx-auto">
-    <h1 class="text-2xl font-bold mb-4">About Me</h1>
-    <p class="text-lg leading-relaxed text-gray-700">
+    <h1 class="text-xl font-bold">About Me</h1>
+
+    <p class="leading-relaxed text-gray-700 mt-4">
       I'm a final-year Electronics Engineering student with interest in embedded systems, digital design, and programming.
       My journey has taken me through various projects, from designing microcontroller-based devices to developing full-stack applications.
     </p>
-    
-    <h2 class="text-2xl font-semibold mt-10">What I can do</h2>
-    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
-      <li class="bg-gray-100 rounded-lg p-6 hover:shadow-sm transition">
-        <div class="flex items-center gap-3 mb-2">
+
+    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-8">
+
+      <li class="bg-gray-100 rounded-lg p-6 space-y-6 divide-y divide-gray-300/95">
+        <div class="flex items-center gap-3 pb-2">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="size-5" viewBox="0 0 16 16">
-            <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/>
+            <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+            <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z"/>
           </svg>
-          <h3 class="font-semibold text-lg">Embedded Systems Development</h3>
+          <h2 class="font-medium text-lg text-gray-900">Experience</h2>
         </div>
-        <p class="text-left">Designing and programming microcontroller-based hardware projects using C, Arduino, and embedded Linux tools.</p>
+
+        <div class="mt-6 text-left pb-4">
+          <p class="text-base font-medium text-gray-900">
+            Regal Digital Solutions
+            <span class="font-normal text-gray-500">| Zimbabwe</span>
+          </p>
+
+          <p class="mt-1 text-sm text-gray-700">
+            Software Engineer
+          </p>
+
+          <ul class="mt-3 text-sm text-gray-600 space-y-1.5 max-w-prose">
+            <li>Developed web applications using Laravel and native PHP in a team environment</li>
+            <li>Assisted in migrating a production native PHP application to the Laravel framework</li>
+          </ul>
+        </div>
+
+        <div class="text-left">
+          <p class="text-base font-medium text-gray-900">
+            Bulawayo City Council
+            <span class="font-normal text-gray-500">| Zimbabwe</span>
+          </p>
+
+          <p class="mt-1 text-sm text-gray-700">
+            Electronic Engineering Intern
+          </p>
+
+          <ul class="mt-3 text-sm text-gray-600 space-y-1.5 max-w-prose">
+            <li>Worked under supervision on microcontroller-based city infrastructure systems, supporting maintenance and troubleshooting</li>
+            <li>Followed established operational procedures and contributed to technical documentation</li>
+          </ul>
+        </div>
       </li>
 
-      <li class="bg-gray-100 rounded-lg p-6 hover:shadow-sm transition">
-        <div class="flex items-center gap-3 mb-2">
-          <svg class="size-6 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M9 2v6h6V2h5a2 2 0 012 2v5h-6v6h6v5a2 2 0 01-2 2h-5v-6H9v6H4a2 2 0 01-2-2v-5h6V9H2V4a2 2 0 012-2h5z"/>
-          </svg>
-          <h3 class="font-semibold text-lg">Mobile App Development</h3>
-        </div>
-        <p class="text-left">Building Android apps in Kotlin with clean UI and efficient architecture, often integrating hardware features.</p>
-      </li>
-
-      <li class="bg-gray-100 rounded-lg p-6 hover:shadow-sm transition">
-        <div class="flex items-center gap-3 mb-2">
-          <svg class="size-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="12" cy="12" r="10"></circle>
-            <line x1="2" y1="12" x2="22" y2="12"></line>
-            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-          </svg>
-          <h3 class="font-semibold text-lg">Web Development</h3>
-        </div>
-        <p class="text-left">Creating interactive web apps with Vue, Node.js, and Flask, including full-stack RESTful services.</p>
-      </li>
-
-      <li class="bg-gray-100 rounded-lg p-6 hover:shadow-sm transition">
-        <div class="flex items-center gap-3 mb-2">
+      <li class="bg-gray-100 rounded-lg p-6 space-y-6 divide-y divide-gray-300/95">
+        <div class="flex items-center gap-3 pb-2">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
           </svg>
-          <h3 class="font-semibold text-lg">Technical Writing / Documentation</h3>
+          <h2 class="font-medium text-lg text-gray-900">Education</h2>
         </div>
-        <p class="text-left">Clear and concise documentation for engineering projects, APIs, and tutorials.</p>
+        
+        <div class="text-left pb-4">
+          <p class="text-base font-medium text-gray-900">
+            National University of Science and Technology
+            <span class="font-normal text-gray-500">| Zimbabwe</span>
+          </p>
+
+          <p class="mt-1 text-sm text-gray-700">
+            Bachelor of Electronic Engineering
+            <span class="text-gray-500">(In Progress)</span>
+          </p>
+
+          <ul class="mt-3 text-sm text-gray-600 space-y-1.5 max-w-prose">
+            <li>Studying digital logic, embedded firmware, and electrical system design</li>
+            <li>Focus on embedded systems, hardware–software integration, and software development</li>
+          </ul>
+        </div>
+
+        <div class="text-left">
+          <p class="text-base font-medium text-gray-900">
+            Harvard University (edX)
+            <span class="font-normal text-gray-500">| Online</span>
+          </p>
+
+          <p class="mt-1 text-sm text-gray-600">
+            Certificate <span class="text-gray-400">(2023) </span>
+            <a href="https://certificates.cs50.io/a5b2d26f-7b61-434a-8ef0-d514a21ca8a6.pdf?size=letter" target="_blank">
+              <span class="text-gray-500 hover:text-gray-600 hover:underline underline-offset-4 transition">[↗]</span>
+            </a>
+          </p>
+
+          <ul class="mt-3 text-sm text-gray-600 space-y-1.5 max-w-prose">
+            <li>
+              CS50x: Algorithms, data structures, C, Python, SQL, Flask, and software design fundamentals
+            </li>
+            <li>
+              Completed a final project applying core development principles
+              <a href="https://weather50.vercel.app" target="_blank">
+                <span class="text-gray-500 hover:text-gray-600 hover:underline underline-offset-4 transition">[↗]</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </li>
     </ul>
 
     <!-- Download Button -->
-    <div class="text-center mt-12">
+    <div class="text-center mt-10">
       <a href="/resume.pdf" download target="_blank" class="inline-block bg-gray-700 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
         Download Resume
       </a>
     </div>
+
+    
   </div>
 </template>
 

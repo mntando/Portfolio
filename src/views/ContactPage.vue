@@ -2,13 +2,13 @@
   <NavBar class="bg-gray-900 text-gray-200" />
 
   <div class="p-6 max-w-3xl mx-auto">
-    <h1 class="text-2xl font-bold mb-4">Contact Me</h1>
-    <p class="text-lg text-gray-700 mb-6">
+    <h1 class="text-xl font-bold">Contact Me</h1>
+    <p class="text-gray-700 mt-4">
       Got a project idea or collaboration request? I’d love to hear from you.
     </p>
 
     <!-- Contact Form -->
-    <form @submit.prevent="handleSubmit" class="rounded-xl shadow-sm p-6 space-y-8">
+    <form @submit.prevent="handleSubmit" class="rounded-xl border border-gray-300 p-6 space-y-8 mt-6">
       <div>
         <label class="block text-sm text-left font-medium">Name:</label>
         <input v-model="name" type="text" required class="w-full mt-1 p-2 border rounded-md" />
